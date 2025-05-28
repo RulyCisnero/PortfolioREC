@@ -3,8 +3,10 @@ import Hero from "./componets/Hero";
 import About from "./componets/About";
 import Technologies from "./componets/Technologies";
 import Experience from "./componets/Experience";
-import Projets from "./componets/projets";    
+//import Projets from "./componets/projets";    
+import Work from "./componets/Work";
 import Contact from "./componets/Contact";  
+import Skills from "./componets/Skills";
 
 const App = () => {
   return (
@@ -16,9 +18,11 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
-        <Technologies />
+        <Skills />
+        {/* <Technologies /> */}
         <Experience />
-        <Projets />
+        {/* <Projets /> */}
+        <Work />
         <Contact />
       </div>
     </div>
