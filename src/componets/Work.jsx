@@ -15,14 +15,14 @@ export const Work = () => {
     };
 
     return (
-        <section className='border-b border-neutral-800 pb-4 py-4 px-[12vw] md:px-[7vw] lg:px-[8vw] font-sans relative' id='work'>
+        <section className='border-b border-neutral-800 pb-4  mx-16 py-4 px-[12vw] md:px-[7vw] lg:px-[8vw] font-sans relative' id='work'>
             {/*seccion titulo*/}
             <div className=' text-center mb-16'>
                 <h2 className=' my-8 text-center text-4xl '>
                     Proyectos
                 </h2>
                 <p className='text-gray-400 mt-4 text-lg font-semibold'>
-                    aca iria el texto descriptivo de los proyectos y la tecnologia
+                    Una muestra de los proyectos en los que he trabajado, destacando mis habilidades y experiencia en diversas tecnologías.
                 </p>
             </div>
             {/*grilla de proyectos*/}
@@ -36,7 +36,7 @@ export const Work = () => {
                             <img src={project.image} alt={project.title} className='w-full h-48 object-cover rounded-xl' />
                         </div>
                         <div className='p-6'>
-                            <h3 className='text-2xl font-bold text-white mb-1'>
+                            <h3 className='text-xl font-bold text-white mb-1'>
                                 {project.title}
                             </h3>
                             <p className='text-gray-500 mb-4 pt-4 line-clamp-3'>
