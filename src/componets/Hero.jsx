@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import fotocv from "../assets/fotocv.jpg";
+import fotocv from "../assets/Fotocv.jpg";
 import { motion } from "framer-motion";
 
 
